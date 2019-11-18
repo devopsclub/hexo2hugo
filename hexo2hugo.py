@@ -103,7 +103,6 @@ if __name__ == "__main__":
     parser.add_argument('--dest', help='Destination directory')
     parser.add_argument('--debug', help='Output level', action='store_true')
     args = parser.parse_args()
-    print(args)
 
     if args.debug:
         default_logging_level = logging.DEBUG
